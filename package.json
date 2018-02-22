@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "pretest": "rm -rf allure-report",
+    "test": "protractor conf.js",
+    "posttest": "allure generate allure-results --clean -o allure-report"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.5.0",
+    "allure-js-commons": "^1.3.1",
+    "babel-core": "^6.26.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "~1.6.1"
+  }
+}
