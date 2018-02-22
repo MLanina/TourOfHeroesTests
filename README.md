@@ -10,7 +10,7 @@ It's based on:
 4. Allure
 
 To run the tests: 
-   - npm tests
+   - npm test
    
 To see Allure report: 
    - allure serve allure-results
